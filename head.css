@@ -1,0 +1,177 @@
+body{
+	margin: 0px;
+}
+
+#top{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background: #ff9900;
+	padding-right: ;
+	color: white;
+	font-family:unset;
+}
+
+#top p{
+    margin: 10px;
+}
+
+.desktop_menu{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background: white;
+	z-index: 999;
+	background: white;
+}
+
+.nav_bar_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right:;
+	padding-top: 20px;
+	padding-left: 6%;
+	box-shadow: 2px 3px 4px grey;
+
+}
+
+.nav_bar_container nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 8px;
+	background: ;
+	border-radius: ;
+    border-style: solid;
+    border-color: white;
+    font-family: sans-serif;
+}
+
+
+#logo{
+	color: #005580;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+	margin-left: 20px;
+}
+
+#logo_2{
+	color: #ff9900;
+}
+
+.nav_mini_cont{
+	margin-top: -20px;
+
+}
+
+.links{
+	color: #005580;
+	border-left-color: red;
+}
+
+.links:hover{
+	color: ;
+	border-bottom-color: #ff9900;
+	transition: 0.5s;
+}
+
+/*RESPONSIVE DESIGN OF MOBILE MENU*/
+
+.mobile_menu{
+	display: none;
+	background: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	z-index: 999;
+	box-shadow: 2px 3px 4px grey;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+}
+
+#mobile_nav{
+text-align: ;
+}
+
+.mobile_bar_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 4%;
+	align-items: center;
+}
+
+#mobile_nav ul li{
+	list-style-type: none;
+	margin: 10px;
+	padding-bottom: 10px;
+	z-index: 999;
+}
+
+#mobile_nav ul a{
+	text-decoration: none;
+}
+
+.mobile_mini_cont nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	border-bottom:1px solid #005580;
+}
+
+.mobile_mini_cont nav{
+	display: none;
+	background: ;
+	width: 100%;
+	color: #005580;
+	margin-top: ;
+	z-index: 999;
+	padding-bottom: 20px;
+}
+
+#menu_btn{
+	font-size: 25px;
+	color: #ff9900;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+#show2{
+	display: none;
+}
+
+.mobile_menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+	.desktop_menu{
+		display: none;
+	}
+	.mobile_menu{
+		display: block;
+		flex-direction:;
+		justify-content:;
+		padding-left: ;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#logo{
+		font-size: 25px;
+	}
+
+}

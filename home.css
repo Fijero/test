@@ -1,0 +1,460 @@
+body{
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.first_body_container{
+	display: flex;
+	flex-direction: row;
+	padding-left: ;
+}
+
+
+.first_section{
+	background-image: url(slider1.jpg);
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+
+.body_txt{
+	background: black;
+	width: inherit;
+	height: inherit;
+	color: white;
+	opacity: 0.8;
+	text-align: ;
+}
+
+.body_txt b{
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+#txt_shift div{
+	padding-left: 6%;
+}
+
+.body_txt div{
+	position: relative;
+	top: 30%;
+}
+
+
+
+.quick_track{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.quick_track a{
+	text-decoration: none;
+	color: white;
+}
+
+.quick_track span{
+	margin: 5px;
+	padding: 10px;
+	text-transform: ;
+	background: #005580;
+	opacity: 0.99;
+	font-size: 19px;
+}
+
+.quick_track span:hover{
+	background: #ff9900;
+	transition: 1s;
+}
+
+
+/*END OF FIRST BODY PART*/
+
+
+/*BEGINING OF FIRST DIV TXT*/
+
+
+.first_txt_div{
+	padding: 6%;
+	padding-right: 3%;
+	font-family: fantasy;
+	line-height: 25px;
+}
+
+.first_txt_div div b{
+	font-size: 24px;
+	padding-bottom: 40px;
+}
+
+
+/*SECONB BODY CONTAINER*/
+
+.second_body_container{
+	display: flex;
+	flex-direction: row;
+	padding: 4% 1% 4% 6%;
+}
+
+.second_body_container div{
+	margin: 10px;
+}
+
+.second_body_container div img{
+	width: 100%;
+}
+
+.second_include{
+	display: flex;
+	flex-direction: column;
+}
+
+.stuff_list p i{
+	padding: 10px;
+	background: #ff9900;
+	border-radius: 50%;
+	color: white;
+}
+
+.mini_quick{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.mini_quick div{
+	background: #ff9900;
+	padding: 15px;
+	border-radius: 7px;
+	color: white;
+}
+
+/*SCROLL TO TOP STYLING*/
+
+#scroll_to_top{
+padding:20px;
+color:white;
+font-size:20px;
+position:fixed;
+bottom:30px;
+right:30px;
+z-index:999;
+background:#ff9900;
+border-radius:50%;
+opacity:0.8;
+outline:none;
+border:0px;
+display:none;
+cursor: pointer;
+}
+
+.track_part1{
+	padding: 3% 4% 3% 6%;
+	background: #ff9900;
+}
+
+.track_part1 div{
+	margin: 20px;
+}
+
+.track_part1 div p{
+	color: white;
+	font-size: 21px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+#track_id_in{
+	height: 50px;
+	width: 60%;
+	outline: none;
+	border: 0px;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#sub_id{
+	height: 40px;
+	background: #005580;
+	color: white;
+	outline: none;
+	border: 0px;
+	border-radius: 40px;
+	margin: 10px 0px 0px 6px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#sub_id:hover{
+	background: black;
+}
+
+.service_txt{
+	padding: 3% 4% 3% 6%;
+}
+
+.service_container{
+	display: flex;
+	flex-direction: column;
+	padding: 3% 4% 3% 6%;
+	font-family: fantasy;
+	line-height: 25px;
+}
+
+#service_tip{
+	color: ;
+	font-family: fantasy;
+	font-weight: bolder;
+	font-size: 21px;
+}
+
+.service_container div{
+	margin: 10px;
+}
+
+.service_mini_container1,.service_mini_container2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.service_mini_container1 div,.service_mini_container2 div{
+	margin: 20px;
+	padding-left: 10px;
+	box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.service_container div p i{
+	font-size: 70px;
+	color: #ff9900;
+}
+
+.service_container div i:hover{
+	transform: skewY(-10deg);
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.third_container{
+	background-image: url(bg2.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;	
+}
+
+.third_container_bg{
+	position: relative;
+	background: black;
+	opacity: 0.8;
+	height: inherit;
+	width: 100%;
+	color: white;
+	font-family: fantasy;
+}
+
+.third_parts{
+	padding: 3% 4% 3% 7%;
+	display: flex;
+	flex-direction: column;
+	line-height: 25px;
+}
+
+.
+.third_parts div{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#third_head{
+	padding: 5px 0px 5px 30px;
+	border-left: 4px solid #ff9900;
+}
+
+#third_head p b{
+	font-size: 40px;
+}
+
+#third_head1{
+	font-size: 17px;
+}
+
+#third_head1,#third_head2{
+	padding: 5px 0px 5px 30px;
+	margin-top: 20px;
+}
+
+#third_head2 button{
+	padding: 15px;
+	border: 1px solid white;
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+
+#third_head2 button:hover{
+	background: #ff9900;
+	transition: 1s;
+}
+
+
+
+/*FOURTH CONTAINER STYLING*/
+
+.fourth_container_all{
+	padding: 3% 4% 3% 6%;
+}
+
+.fourth_container{
+	display: flex;
+	flex-direction: row;
+	padding-top: 6%;
+	align-items: center;
+	font-family: fantasy;
+	line-height: 25px;
+}
+
+.fourth_container div{
+	margin: 5px;
+}
+
+#fourth_list{
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	line-height: 25px;
+	font-family: fantasy;
+}
+
+#fourth_list i{
+	color: #ff9900;
+    padding: 10px;
+	border: 3px solid #ff9900;
+	border-radius: 50%;
+	margin-left: -20px;
+}
+
+#fourth_list P{
+	margin-top: -3px;
+}
+
+.fourth_container div div{
+	margin-top: 20px;
+}
+
+#feature_tip{
+	padding: 9px;
+	background: #ff9900;
+	width: 150px;
+	text-align: center;
+	margin-left: 35px;
+}
+
+#tip_exp{
+	font-size: 19px;
+	font-weight: bolder;
+}
+
+
+/*END OF FOURTH COUNTAINER*/
+
+
+/*BEGINING OF FIFTH CONTAINER*/
+
+
+.fifth_container_all{
+	background: #ff9900;
+	height: ;
+	padding: 4% 4% 3% 7%;
+}
+
+.fifth_container{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.fifth_container p{
+	font-size: 39px;
+	color: white;
+	font-family: fantasy;
+}
+
+.short_quicks nav ul{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	font-family: fantasy;
+}
+
+.short_quicks nav ul a{
+	text-decoration: none;
+	color: white;
+}
+
+.short_quicks nav ul li {
+	margin: 10px;
+	font-size: 19px;
+	color: white;
+	list-style-type: none;
+	background: #005580;
+	padding: 6px;
+}
+
+.short_quicks nav ul li::after{
+	content: " >>";
+}
+
+.short_quicks nav ul li:hover{
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MAKING RESPONSIVE DESIGN FOR DIFFERENT SCREEN SIZES*/
+
+@media only screen and (max-width: 700px){
+	.first_section{
+		height: 400px;
+	}
+	.second_body_container{
+		flex-direction: column;
+	}
+	#track_id_in{
+		width: 100%;
+	}
+	.fourth_container{
+		flex-direction: column;
+	}
+	.service_mini_container1, .service_mini_container2{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	#fourth_list{
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.short_quicks nav ul{
+		flex-direction: column;
+	}
+}

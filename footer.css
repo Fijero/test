@@ -1,0 +1,161 @@
+.footer_section_all{
+	padding: 0% 1% 4% 6%;
+	background: #1a1a1a;
+	opacity: ;
+	color: #b3b3b3;
+}
+
+.footer_section{
+	display: flex;
+	flex-direction: column;
+}
+
+.foot_links nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.foot_links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 4%;
+	margin-left: ;
+	border-bottom: 1px white solid;
+}
+
+.foot_links nav ul li{
+	color: #b3b3b3;
+}
+
+.foot_links nav ul a{
+	list-style-type: none;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.social_links{
+	color: white;
+}
+
+.social_links a{
+	color: #b3b3b3;
+}
+
+.social_links i{
+	margin: 10px;
+}
+
+
+/*SECOND PHASE OF THE QUICK LINKS*/
+
+.foot_links2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	color: #b3b3b3;
+	line-height: 25px;
+}
+
+.foot_links2 div{
+	margin: 10px;
+}
+
+.foot_links2 div form{
+	display: flex;
+	flex-direction: row;
+}
+
+#foot_tip{
+	font-size: 21px;
+	font-family: fantasy;
+	font-weight: bolder;
+}
+
+#sub_in,#txt_in{
+	padding: 20px;
+    border: 0px;
+	outline: none;
+}
+
+#txt_in{
+	width: 80%;
+}
+
+#sub_in{
+	background: #ff9900;
+	cursor: pointer;
+}
+
+#locate:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+.count{
+	display: flex;
+	flex-direction: row;
+}
+
+.count ul li, a{
+	list-style-type: none;
+	color: #b3b3b3;
+	text-decoration: none;
+}
+
+.count ul li a:hover{
+	color: white;
+}
+
+.last_foot{
+	color: #b3b3b3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: black;
+	padding: 2% 3% 2% 6%;
+	align-items: center;
+}
+
+.last_foot div{
+	margin: 5px;
+}
+
+
+/*RESPONSIVE DESIGN FOR FOOTER*/
+
+@media only screen and (max-width: 900px){
+	.foot_links2{
+		flex-direction: column;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	.footer_section nav ul{
+		flex-direction: column;
+	}
+	.foot_links{
+		flex-direction: column;
+	}
+	
+	.foot_links2 div form{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#txt_in{
+		width: 200px;
+	}
+	#sub_in{
+		width: 100px;
+	}
+	.last_foot{
+		flex-direction: column;
+	}
+}
